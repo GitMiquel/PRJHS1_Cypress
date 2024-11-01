@@ -11,8 +11,14 @@ Click on E2E Testing, select Chrome and select Start E2E Testing in Chrome
 
 The specs can now be ran
 
-IMPORTANT: The configuration of the service worker in saucedemo.com causes the page to not trigger a "load" event, which Cypress waits for to confirm that the page has downloaded all assets, to continue the execution of the spec. If this is the case then follow these steps:
+/**IMPORTANT**/
+The configuration of the service worker in saucedemo.com can cause the page to not trigger a "load" event, which Cypress waits for to confirm that the page has downloaded all assets, to continue the execution of the spec. 
+
+If this is the case then follow these steps:
 In the Cypress App, select Developer Tools from the Header > View App data
+
 Then navigate through the following folders: browsers > chrome-stable > interactive > Default > Service Worker
+
 And delete the CacheStorage Folder
+
 Re-run the spec
