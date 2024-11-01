@@ -1,0 +1,6 @@
+# Ignore dependencies
+node_modules/
+
+# Ignore Cypress output folders
+cypress/videos/
+cypress/screenshots/
