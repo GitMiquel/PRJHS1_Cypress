@@ -1,13 +1,14 @@
 {
-  "name": "prj1",
-  "version": "1.0.0",
+  "name": "PRJHS1_Cypress",
+  "version": "1.0.1",
+  "description": "Project for E2E tests with Cypress on saucedemo.com",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "N/A"
   },
   "repository": {
     "type": "git",
-    "url": "placeholder"
+    "url": "https://github.com/GitMiquel/PRJHS1_Cypress"
   },
   "author": "Miquel Juan",
   "license": "ISC",
