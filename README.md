@@ -14,6 +14,9 @@ The specs can now be ran
 /**IMPORTANT**/
 The configuration of the service worker in saucedemo.com can cause the page to not trigger a "load" event, which Cypress waits for to confirm that the page has downloaded all assets, to continue the execution of the spec. 
 
+This may cause the following error to be thrown during runtime:
+(fetch)POST 401 https://events.backtrace.io/api/summed-events/submit?universe=UNIVERSE&token=TOKEN
+
 If this is the case then follow these steps:
 In the Cypress App, select Developer Tools from the Header > View App data
 
