@@ -1,5 +1,6 @@
 node.js is required to run this Test Suite.
 node.js can be downloaded from here https://nodejs.org/en
+Chocolatey is not necessary to run Cypress
 
 After Downloading the Test Suite and opening its containing folder in the IDE of your choice (VSC is recommended). Dependencies need to be installed
 Open a new Terminal a type: npm install
